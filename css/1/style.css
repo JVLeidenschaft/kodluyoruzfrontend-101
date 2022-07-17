@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+body{
+    background-color:#839AA8;   /* background rengini degistirdik */
+}
+h1{
+    text-align: center;                /* h1 etiketli basligi ortaladik ve font family belirledik */
+    font-family:'Dancing Script';
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 14%;                               /* anasayfa,urunler,hakkımızda liste elemanlarini düzenledik*/
+    margin-right: 10%;
+    font-family: 'Shadows Into Light';
+    font-size: x-large;
+}
+nav ul li a{
+    text-decoration: none;           /*text-decoration ile listedeki linklerin altindaki cizgileri kaldirdik ve yaziyi siyah yaptik*/
+    color: black;
+}
+
+nav ul li a:hover{
+    border-radius: 12px;         /*hover ile liste elemanlarinin ustune gelince arkaplan renginin ne olacağını belirledik ve border radius degeri girdik */
+    background-color: #AEDBCE;
+}
+p{
+    text-align: center;
+    font-family: 'Chakra Petch';  /*paragraf ortaladik ve font-family, font-size,margin-top belirledik*/
+    font-size: 25px;
+    margin-top: 3%;
+}
+section ul li{
+    font-family:'Chakra Petch' ;
+    font-size: 25px;               
+    margin-left:30%;
+    list-style-position: inside;  /*Ana sayfada bulunan listelerin noktalarini ortalamak icin list-style-position: inside'i kullanabilirsiniz.*/
+}
+img{
+    height:25%;                 /*urunler sayfasinda eklenen resimlerin genislik ve yukseklik degeri belirlendi*/
+    width: 25%;
+    border-radius: 15px;
+    margin-left: 10%;
+    
+}
+section ol{
+    font-family:'Chakra Petch' ;
+    font-size: 20px;
+    margin-left: 32%;
+}
+footer img{                 /*logoyu sol taraftan uzaklastirdik*/
+    margin-left: 37%;
+}
+section h2{
+    text-align: center;
+    font-family: 'Chackra Petch';
+}
+
+ 
